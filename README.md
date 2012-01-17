@@ -13,8 +13,9 @@ Currently Supported Operations:
 
 Installation
 ------------
-git clone git://github.com/MINDoSOFT/githubScalaAPI.git
-sbt compile
+
+    git clone git://github.com/MINDoSOFT/githubScalaAPI.git
+    sbt compile
 
 Usage
 -----
