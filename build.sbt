@@ -8,4 +8,4 @@ libraryDependencies ++= Seq(
   "net.liftweb" % "lift-json_2.9.1" % "2.4"
 )
 
-mainClass in (Compile, run) := Some("com.mindosoft.github.githubScalaAPI.Gists")
+mainClass in (Compile, run) := Some("com.github.mindosoft.githubScalaAPI.Gists")
