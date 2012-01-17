@@ -14,8 +14,18 @@ Currently Supported Operations:
 Installation
 ------------
 
-    git clone git://github.com/MINDoSOFT/githubScalaAPI.git
-    sbt compile
+*    Add this to project/build.scala
+        import sbt._
+        object MyApp extends Build
+        {
+          lazy val root =
+            Project("root", file(".")) dependsOn(githubScalaAPI)
+          lazy val githubScalaAPI =
+            uri("git://github.com/MINDoSOFT/githubScalaAPI")
+        }
+
+*    From your scala file do
+        import com.github.mindosoft.githubScalaAPI.Gists._
 
 Usage
 -----
