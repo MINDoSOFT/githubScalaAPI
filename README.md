@@ -14,18 +14,18 @@ Currently Supported Operations:
 Installation
 ------------
 
-*    Add this to project/build.scala
-        import sbt._
-        object MyApp extends Build
-        {
-          lazy val root =
-            Project("root", file(".")) dependsOn(githubScalaAPI)
-          lazy val githubScalaAPI =
-            uri("git://github.com/MINDoSOFT/githubScalaAPI")
-        }
+*    Add this to project/build.scala 
+`import sbt._
+object MyApp extends Build
+{
+  lazy val root =
+    Project("root", file(".")) dependsOn(githubScalaAPI)
+  lazy val githubScalaAPI =
+    uri("git://github.com/MINDoSOFT/githubScalaAPI")
+}`
 
 *    From your scala file do
-        import com.github.mindosoft.githubScalaAPI.Gists._
+`import com.github.mindosoft.githubScalaAPI.Gists._`
 
 Usage
 -----
