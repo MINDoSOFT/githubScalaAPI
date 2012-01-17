@@ -1,13 +1,13 @@
 GithubScalaAPI
 ==============
 
-This Scala library uses the [.github API v3] (http://developer.github.com/v3/) 
+This Scala library uses the [github API v3] (http://developer.github.com/v3/) 
 to access information on Github.
 
 Currently Supported Operations
 ------------------------------
-### List a users'' gists
-### Get a single gist
+* List a user's gists
+* Get a single gist
 
 Installation
 ------------
